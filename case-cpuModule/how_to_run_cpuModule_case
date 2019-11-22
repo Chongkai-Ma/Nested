@@ -1,0 +1,32 @@
+============================================================
+=   Please read this carefully before you run this case    =
+=[1] This is cpuModule test case. This auto shell script   = 
+=    can automatically execute CPU module test case.       = 
+=    When you input a CPU Module, the script can finish    =
+=    the loop test using the CPU Module which under the    =
+=    input one.                                            =
+=                                                          =
+=[2] You must successfully finish auto installation first, =
+=    then execute this case.                               =
+=                                                          =
+=[3] YOU MUST find a SUITABLE cpuModule before you execute =
+=    this test case.                                       =
+=    							   =
+= ***The input cpuModule must be equal or lower than  ***  =
+=                ***the host cpu Module.***                =
+=                                                          =
+=[4] The are some cpuModule can be selected:               =
+=        Intel             |            AMD                =
+= -------------------------------------------------------- =
+=    Icelake-Client        |         Opteron_G5            =
+=    Skylake-Client        |         Opteron_G4            =
+=      Broadwell           |         Opteron_G3            =
+=       Haswell            |         Opteron_G2            =
+=      IvyBridge           |         Opteron_G1            =
+=     SandyBridge          |                               =
+=      Westmere            |                               =
+============================================================
+
+
+
+-----------
