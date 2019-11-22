@@ -1,0 +1,39 @@
+==> This is the summary which can guide you run the nested auto test
+
+This forder is the code tree. If you want to use that, please copy the whole directory. 
+
+This scrpte is writen by expect. Run this script at other PC (maybe your labtop, but ***NOT*** your host)
+
+
+==> how to run the test
+#./nested-install.sh 
+$please enter the host IP address: xx.xx.xx.xx
+$please enter a L2 CPU module: SandyBridge
+$please enter a repo URL:  http://download.eng.pek2.redhat.com/pub/rhel/nightly/RHEL-8.0-20190103.n.0/compose/BaseOS/x86_64/os/
+
+########  IMPORTANT ########
+Before you run this test, please prepare the host. You ***MUST*** finish the follow list on your HOST, then run the test. 
+
+	[1] STOP firewalld and selinux;
+	[2] build the bridge 
+	[3] Install QEMU
+	[4] Enable the kvm_install and nested=1 EPT=1
+	[5] Install "nmap" in you host. 
+	    #yum install -y nmap
+
+==> l1_install.sh
+This file is the L1 guest install command. If you want to do any thing changed, it is convenient. 
+
+==> l2_install.sh 
+This file is the L2 guest install command. IF you want to do any thing changed, it is convenient. 
+
+==> qemu-kvm
+you can choice any qemu version and save them in the qemu-kvm directory. 
+
+==> Log
+L1 boot log is collected under </home/nested-autoshell/hostLog.out> in the host. 
+
+NOW THE TEST IS GOING TO START ::::
+-
+-
+

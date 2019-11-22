@@ -1,0 +1,7 @@
+DEVICE="switch"
+NAME="switch"
+ONBOOT="yes"
+TYPE=bridge
+BOOTPROTO="dhcp"
+IPADDR=L1guestIP
+PREFIX=22
